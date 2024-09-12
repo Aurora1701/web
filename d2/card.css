@@ -1,0 +1,28 @@
+.gameShelf{
+  display: flex;
+  margin: 10px;  
+}
+
+
+
+.game {
+    margin: 10px;
+    width: 200px;
+    height: auto;
+    border: solid 1px green;
+    border-radius: 10px;
+}
+.game > img{
+    border-radius: 10px 10px 0 0;
+    width: 200px;
+    height: 250px;
+}
+.text {
+    padding: 10px 10px;
+}
+.text > h2{
+    margin: 0;
+}
+.text > p{
+    margin: 0;
+}
